@@ -11,18 +11,35 @@ RESET
  /* 
  GENERAL
  */
-
- body{
-    font-family: Arial, Helvetica, sans-serif;
- }
- 
- .container{
-    max-width: 1200px;
-    margin: 0 auto;
- }
-
- /* DEBUG */
-.debug{
-
-
+ body {
+   background-color: #97ef71;
+}
+.container {
+   padding: 2rem;
+}
+h1 {
+   font-size: 2.5rem;
+   margin-bottom: 2rem;
+}
+.form-group {
+   margin-bottom: 1.5rem;
+}
+.btn-primary,
+.btn-secondary {
+   border-radius: 0.25rem;
+}
+.card {
+   border: none;
+   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.692);
+}
+.card-title {
+   font-size: 1.25rem;
+   margin-bottom: 0.5rem;
+}
+.card-text {
+   font-size: 0.875rem;
+   margin-bottom: 0.25rem;
+}
+.card-text:last-child {
+   margin-bottom: 0;
 }
